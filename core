@@ -1,0 +1,15 @@
+students-perf/
+├─ data/
+│  ├─ raw/
+│  └─ clean/                                 
+├─ R/
+│  ├─ 01_data_preprocessing.R
+│  ├─ 02_1_descriptive_statistics.R
+│  ├─ 02_2_plots.R
+│  ├─ 03_1_inferential_method1.R   
+│  ├─ 03_2_inferential_method2.R  
+│  └─ utils.R
+├─ tables/                                    
+├─ figures/                                   
+├─ report.qmd                                 
+└─ .gitignore
