@@ -1,0 +1,1001 @@
+"gender","race.ethnicity","parental.level.of.education","lunch","test.preparation.course","total.score"
+"female","group B","bachelor's degree","standard","none",218
+"female","group C","some college","standard","completed",247
+"female","group B","master's degree","standard","none",278
+"male","group A","associate's degree","free/reduced","none",148
+"male","group C","some college","standard","none",229
+"female","group B","associate's degree","standard","none",232
+"female","group B","some college","standard","completed",275
+"male","group B","some college","free/reduced","none",122
+"male","group D","high school","free/reduced","completed",195
+"female","group B","high school","free/reduced","none",148
+"male","group C","associate's degree","standard","none",164
+"male","group D","associate's degree","standard","none",135
+"female","group B","high school","standard","none",219
+"male","group A","some college","standard","completed",220
+"female","group A","master's degree","standard","none",161
+"female","group C","some high school","standard","none",222
+"male","group C","high school","standard","none",263
+"female","group B","some high school","free/reduced","none",78
+"male","group C","master's degree","free/reduced","completed",134
+"female","group C","associate's degree","free/reduced","none",173
+"male","group D","high school","standard","none",198
+"female","group B","some college","free/reduced","completed",210
+"male","group D","some college","standard","none",151
+"female","group C","some high school","standard","none",215
+"male","group D","bachelor's degree","free/reduced","completed",225
+"male","group A","master's degree","free/reduced","none",219
+"male","group B","some college","standard","none",178
+"female","group C","bachelor's degree","standard","none",211
+"male","group C","high school","standard","none",205
+"female","group D","master's degree","standard","none",207
+"female","group D","some college","standard","none",217
+"female","group B","some college","standard","none",189
+"female","group E","master's degree","free/reduced","none",193
+"male","group D","some college","standard","none",120
+"male","group E","some college","standard","none",266
+"male","group E","associate's degree","standard","completed",241
+"female","group D","associate's degree","standard","none",238
+"female","group D","some high school","free/reduced","none",173
+"female","group D","associate's degree","free/reduced","completed",253
+"male","group B","associate's degree","free/reduced","none",170
+"male","group C","associate's degree","free/reduced","none",170
+"female","group C","associate's degree","standard","none",199
+"female","group B","associate's degree","standard","none",176
+"male","group B","some college","free/reduced","completed",190
+"female","group E","associate's degree","free/reduced","none",160
+"male","group B","associate's degree","standard","none",176
+"female","group A","associate's degree","standard","completed",182
+"female","group C","high school","standard","none",213
+"female","group D","associate's degree","free/reduced","completed",207
+"male","group C","high school","standard","completed",248
+"male","group E","some college","standard","none",156
+"male","group E","associate's degree","free/reduced","completed",214
+"male","group C","some college","standard","none",139
+"male","group D","high school","standard","none",241
+"female","group C","some high school","free/reduced","completed",242
+"female","group C","high school","free/reduced","none",117
+"female","group E","associate's degree","standard","completed",253
+"male","group D","associate's degree","standard","none",156
+"male","group D","some college","standard","completed",175
+"female","group C","some high school","free/reduced","none",27
+"male","group E","bachelor's degree","free/reduced","completed",225
+"male","group A","some high school","free/reduced","none",112
+"male","group A","associate's degree","free/reduced","none",178
+"female","group C","associate's degree","standard","none",220
+"female","group D","some high school","standard","none",176
+"male","group B","some high school","standard","none",192
+"male","group D","some high school","free/reduced","none",119
+"female","group C","some college","standard","none",206
+"male","group B","associate's degree","free/reduced","none",175
+"female","group C","associate's degree","standard","none",160
+"female","group D","some college","free/reduced","completed",194
+"male","group D","some college","standard","completed",181
+"female","group A","associate's degree","free/reduced","none",140
+"male","group C","some high school","free/reduced","none",174
+"male","group C","some high school","standard","none",139
+"male","group B","associate's degree","free/reduced","none",123
+"male","group E","some high school","standard","none",78
+"male","group A","bachelor's degree","standard","completed",239
+"female","group D","some high school","standard","completed",207
+"female","group E","master's degree","standard","none",198
+"female","group B","associate's degree","standard","none",146
+"male","group B","high school","free/reduced","none",139
+"male","group A","some college","free/reduced","completed",151
+"male","group E","associate's degree","standard","none",199
+"male","group D","high school","free/reduced","none",115
+"female","group C","some college","standard","none",235
+"female","group C","some college","free/reduced","none",247
+"female","group D","associate's degree","standard","none",216
+"female","group A","some college","standard","none",195
+"female","group D","some high school","standard","none",241
+"female","group C","bachelor's degree","standard","none",211
+"male","group C","high school","free/reduced","none",97
+"male","group C","high school","standard","none",221
+"male","group C","associate's degree","free/reduced","completed",138
+"female","group B","some college","standard","none",257
+"male","group C","associate's degree","free/reduced","completed",241
+"male","group B","some high school","standard","completed",193
+"female","group E","some college","standard","completed",205
+"female","group D","some college","free/reduced","none",187
+"female","group D","bachelor's degree","standard","none",194
+"male","group B","some college","standard","none",213
+"male","group D","bachelor's degree","standard","completed",216
+"female","group D","associate's degree","standard","none",265
+"male","group B","high school","standard","completed",151
+"male","group C","some college","standard","completed",274
+"female","group C","some college","standard","none",197
+"female","group D","master's degree","standard","none",287
+"male","group E","associate's degree","standard","completed",193
+"female","group B","associate's degree","free/reduced","none",198
+"female","group B","some high school","standard","none",206
+"female","group D","associate's degree","free/reduced","completed",264
+"male","group C","high school","standard","none",166
+"male","group A","associate's degree","standard","none",154
+"female","group D","some college","standard","none",163
+"female","group E","bachelor's degree","standard","completed",299
+"male","group C","high school","standard","none",235
+"female","group B","bachelor's degree","free/reduced","none",242
+"female","group D","bachelor's degree","standard","none",239
+"female","group D","some high school","standard","none",175
+"female","group C","some college","standard","none",189
+"female","group C","bachelor's degree","standard","completed",260
+"male","group B","associate's degree","standard","completed",272
+"female","group C","some college","standard","completed",274
+"male","group D","high school","free/reduced","none",176
+"male","group E","some college","standard","none",236
+"female","group B","high school","standard","none",268
+"male","group B","some high school","standard","none",207
+"male","group D","some college","standard","completed",216
+"male","group D","master's degree","standard","none",238
+"female","group A","bachelor's degree","standard","none",151
+"male","group D","master's degree","standard","none",255
+"male","group C","some high school","free/reduced","completed",130
+"male","group E","some college","free/reduced","completed",231
+"female","group C","some college","standard","completed",240
+"male","group D","bachelor's degree","free/reduced","completed",228
+"male","group C","bachelor's degree","standard","none",161
+"male","group B","some high school","standard","completed",146
+"male","group E","high school","standard","none",181
+"female","group C","associate's degree","standard","none",192
+"male","group D","some college","standard","completed",201
+"female","group D","some high school","standard","none",219
+"female","group C","some college","free/reduced","none",185
+"female","group E","some college","free/reduced","completed",151
+"male","group A","high school","standard","none",147
+"male","group D","some college","standard","none",239
+"female","group C","some college","free/reduced","none",94
+"male","group B","some high school","standard","none",247
+"male","group C","associate's degree","free/reduced","none",207
+"female","group D","bachelor's degree","standard","completed",224
+"male","group E","associate's degree","free/reduced","completed",293
+"male","group A","some high school","standard","completed",198
+"male","group A","bachelor's degree","standard","none",212
+"female","group B","associate's degree","standard","completed",195
+"male","group D","bachelor's degree","standard","none",150
+"male","group D","some high school","standard","none",190
+"female","group C","some college","standard","completed",247
+"female","group E","high school","free/reduced","completed",218
+"male","group B","some college","free/reduced","none",180
+"female","group B","associate's degree","standard","completed",234
+"male","group D","associate's degree","free/reduced","none",192
+"male","group B","associate's degree","free/reduced","completed",234
+"female","group E","some college","free/reduced","completed",248
+"male","group B","master's degree","free/reduced","none",154
+"male","group C","high school","standard","none",154
+"female","group E","master's degree","standard","none",264
+"female","group C","bachelor's degree","standard","completed",296
+"male","group C","high school","free/reduced","completed",155
+"female","group B","master's degree","free/reduced","completed",212
+"female","group B","high school","standard","completed",229
+"female","group C","some college","free/reduced","completed",212
+"male","group A","high school","standard","completed",219
+"male","group E","some high school","standard","none",260
+"female","group D","some college","standard","none",246
+"female","group C","associate's degree","standard","none",200
+"female","group C","bachelor's degree","free/reduced","completed",148
+"female","group C","master's degree","standard","completed",259
+"female","group B","high school","free/reduced","completed",158
+"female","group C","associate's degree","standard","completed",225
+"female","group B","master's degree","free/reduced","completed",184
+"female","group D","some high school","standard","completed",297
+"male","group C","master's degree","free/reduced","completed",205
+"female","group C","some college","free/reduced","none",176
+"female","group E","high school","standard","none",147
+"female","group D","associate's degree","standard","none",204
+"male","group C","some high school","free/reduced","completed",146
+"male","group C","associate's degree","free/reduced","completed",197
+"male","group E","high school","standard","none",221
+"male","group D","some high school","standard","completed",196
+"male","group B","some high school","free/reduced","none",145
+"female","group C","bachelor's degree","standard","none",252
+"female","group E","associate's degree","standard","none",200
+"male","group D","some college","standard","completed",238
+"female","group B","some high school","standard","none",192
+"male","group D","some college","standard","completed",201
+"female","group C","master's degree","standard","completed",238
+"male","group D","associate's degree","standard","none",168
+"male","group C","some high school","free/reduced","completed",193
+"male","group E","high school","free/reduced","none",162
+"female","group B","some college","free/reduced","none",153
+"female","group B","bachelor's degree","free/reduced","none",233
+"female","group C","associate's degree","standard","completed",237
+"female","group D","some college","free/reduced","none",223
+"male","group C","associate's degree","standard","none",215
+"female","group B","associate's degree","standard","none",194
+"male","group C","some college","standard","none",142
+"male","group D","some high school","standard","completed",223
+"male","group E","bachelor's degree","standard","none",206
+"male","group E","high school","standard","completed",237
+"female","group B","some college","free/reduced","none",231
+"female","group B","some college","free/reduced","none",185
+"male","group D","some high school","free/reduced","completed",238
+"male","group C","some college","free/reduced","none",90
+"female","group C","high school","free/reduced","none",164
+"male","group C","associate's degree","free/reduced","completed",167
+"male","group E","high school","standard","completed",259
+"male","group B","some high school","standard","completed",242
+"female","group E","associate's degree","free/reduced","completed",257
+"female","group C","high school","free/reduced","none",115
+"male","group B","high school","free/reduced","none",213
+"male","group B","some high school","standard","completed",173
+"female","group D","high school","standard","completed",198
+"male","group B","associate's degree","standard","none",245
+"female","group C","some high school","free/reduced","none",182
+"male","group D","some high school","standard","none",241
+"female","group B","associate's degree","standard","completed",191
+"female","group E","master's degree","free/reduced","none",155
+"female","group C","some college","standard","none",215
+"male","group D","high school","standard","none",161
+"male","group A","some high school","free/reduced","none",204
+"female","group C","some college","standard","completed",277
+"male","group D","some college","standard","none",206
+"male","group C","associate's degree","standard","none",131
+"female","group B","bachelor's degree","standard","none",236
+"male","group E","some high school","standard","none",257
+"male","group C","bachelor's degree","standard","completed",249
+"male","group D","associate's degree","standard","none",232
+"male","group D","bachelor's degree","free/reduced","none",196
+"female","group D","some high school","standard","completed",198
+"male","group B","some college","standard","none",157
+"male","group C","associate's degree","standard","none",244
+"male","group D","high school","free/reduced","completed",207
+"female","group E","bachelor's degree","standard","none",246
+"female","group D","high school","standard","none",163
+"male","group E","some college","standard","none",153
+"male","group D","some high school","standard","none",218
+"male","group C","associate's degree","standard","none",232
+"male","group E","associate's degree","standard","none",239
+"female","group B","high school","standard","completed",196
+"female","group B","high school","standard","none",191
+"male","group C","high school","standard","none",181
+"male","group A","some high school","standard","completed",145
+"female","group D","some college","free/reduced","none",237
+"female","group B","some high school","standard","completed",200
+"male","group D","master's degree","standard","none",232
+"male","group D","high school","standard","none",158
+"female","group E","some college","standard","none",205
+"female","group C","associate's degree","free/reduced","none",205
+"male","group C","associate's degree","standard","completed",232
+"female","group B","some college","standard","none",223
+"female","group C","master's degree","free/reduced","completed",227
+"female","group C","some high school","free/reduced","completed",220
+"male","group C","some college","standard","completed",236
+"female","group C","some high school","free/reduced","none",145
+"female","group E","high school","standard","none",282
+"male","group D","high school","standard","none",217
+"male","group D","some high school","free/reduced","none",142
+"female","group C","bachelor's degree","standard","none",219
+"female","group D","high school","standard","none",218
+"female","group D","associate's degree","standard","completed",275
+"female","group E","some college","free/reduced","none",217
+"male","group C","bachelor's degree","standard","none",193
+"male","group C","some college","standard","none",149
+"female","group D","associate's degree","free/reduced","none",158
+"female","group D","some college","standard","none",206
+"male","group B","some college","standard","completed",249
+"male","group C","bachelor's degree","standard","none",234
+"female","group C","some high school","standard","completed",270
+"female","group E","high school","standard","completed",197
+"female","group C","some high school","free/reduced","none",231
+"male","group B","bachelor's degree","free/reduced","none",186
+"male","group D","high school","standard","none",147
+"male","group D","high school","standard","none",139
+"female","group D","bachelor's degree","free/reduced","none",236
+"female","group D","some college","free/reduced","completed",226
+"female","group B","some high school","standard","none",129
+"male","group B","associate's degree","standard","completed",245
+"male","group E","associate's degree","standard","completed",267
+"female","group B","some high school","standard","none",238
+"male","group B","bachelor's degree","free/reduced","none",239
+"male","group E","some high school","standard","completed",230
+"male","group C","associate's degree","standard","none",214
+"male","group D","some high school","standard","none",229
+"male","group C","some high school","standard","completed",180
+"female","group E","bachelor's degree","standard","none",213
+"male","group D","high school","free/reduced","completed",235
+"male","group B","associate's degree","free/reduced","none",189
+"male","group A","some high school","standard","completed",130
+"male","group E","associate's degree","standard","completed",213
+"male","group C","high school","free/reduced","completed",136
+"male","group D","associate's degree","free/reduced","none",252
+"male","group A","some college","free/reduced","completed",240
+"male","group D","some high school","free/reduced","none",162
+"female","group C","associate's degree","standard","completed",232
+"male","group B","associate's degree","standard","none",220
+"female","group C","associate's degree","standard","completed",232
+"male","group A","some college","standard","none",205
+"male","group E","some college","standard","completed",267
+"male","group C","some high school","standard","none",147
+"female","group B","associate's degree","free/reduced","none",191
+"female","group D","high school","free/reduced","none",158
+"female","group B","associate's degree","standard","none",229
+"male","group B","bachelor's degree","standard","none",183
+"male","group D","bachelor's degree","standard","completed",196
+"female","group C","associate's degree","free/reduced","completed",204
+"female","group C","bachelor's degree","standard","completed",198
+"male","group C","high school","standard","none",202
+"female","group D","master's degree","standard","completed",250
+"male","group C","associate's degree","standard","none",233
+"male","group B","bachelor's degree","standard","none",203
+"female","group D","associate's degree","free/reduced","none",184
+"female","group C","high school","free/reduced","completed",230
+"female","group E","high school","standard","none",240
+"female","group C","some college","standard","none",232
+"female","group C","some high school","free/reduced","none",149
+"female","group C","high school","free/reduced","none",130
+"female","group C","some college","standard","none",266
+"male","group C","some college","standard","none",184
+"male","group A","some college","free/reduced","none",70
+"male","group C","associate's degree","standard","completed",234
+"female","group B","some high school","standard","none",147
+"male","group C","high school","standard","none",192
+"male","group C","associate's degree","standard","none",119
+"male","group E","associate's degree","standard","completed",171
+"male","group B","associate's degree","standard","none",249
+"female","group C","bachelor's degree","standard","none",271
+"female","group B","some college","free/reduced","none",195
+"male","group D","some high school","standard","completed",215
+"male","group C","associate's degree","standard","none",143
+"female","group B","some high school","free/reduced","none",89
+"female","group D","some high school","free/reduced","completed",150
+"male","group C","high school","free/reduced","none",171
+"female","group C","high school","standard","none",197
+"female","group B","high school","standard","completed",219
+"male","group D","associate's degree","standard","completed",206
+"male","group D","some college","standard","none",219
+"female","group C","high school","standard","none",227
+"male","group B","some college","standard","none",180
+"female","group C","bachelor's degree","standard","completed",266
+"male","group D","high school","free/reduced","none",215
+"male","group E","associate's degree","standard","none",237
+"female","group B","bachelor's degree","standard","none",186
+"male","group E","some college","standard","none",175
+"female","group C","some college","standard","completed",221
+"female","group C","associate's degree","standard","none",161
+"female","group C","some college","standard","none",200
+"female","group B","bachelor's degree","standard","none",203
+"male","group A","associate's degree","standard","none",185
+"female","group C","some college","free/reduced","completed",177
+"male","group D","some college","free/reduced","none",182
+"female","group D","some college","standard","none",259
+"female","group B","high school","standard","none",179
+"male","group B","some high school","standard","completed",247
+"female","group C","some college","standard","none",168
+"female","group D","some high school","free/reduced","none",93
+"male","group C","some college","standard","none",177
+"male","group A","bachelor's degree","free/reduced","completed",167
+"male","group C","high school","standard","completed",180
+"male","group C","bachelor's degree","free/reduced","none",188
+"female","group A","some high school","free/reduced","none",166
+"female","group D","some high school","standard","none",242
+"male","group E","some college","standard","none",232
+"female","group C","some college","free/reduced","completed",188
+"male","group D","some high school","standard","none",220
+"female","group D","some college","standard","completed",275
+"female","group D","bachelor's degree","standard","none",202
+"male","group E","associate's degree","free/reduced","none",130
+"female","group D","some high school","standard","none",252
+"female","group D","master's degree","free/reduced","completed",280
+"female","group A","some high school","standard","none",231
+"male","group A","bachelor's degree","standard","none",192
+"female","group B","associate's degree","standard","none",249
+"male","group C","associate's degree","standard","completed",282
+"male","group C","master's degree","free/reduced","none",231
+"female","group E","some high school","free/reduced","none",132
+"female","group A","some high school","free/reduced","none",124
+"female","group E","some college","standard","none",218
+"female","group E","bachelor's degree","standard","none",207
+"female","group C","associate's degree","free/reduced","none",202
+"female","group D","high school","standard","none",190
+"male","group D","master's degree","standard","none",218
+"male","group E","some high school","free/reduced","completed",199
+"female","group D","some college","standard","none",222
+"male","group E","some college","standard","none",210
+"male","group C","associate's degree","standard","completed",167
+"female","group C","some high school","standard","completed",216
+"male","group A","high school","free/reduced","none",134
+"female","group B","high school","free/reduced","none",180
+"female","group C","associate's degree","standard","none",269
+"male","group B","some high school","standard","none",194
+"male","group D","some high school","standard","none",173
+"female","group C","some high school","standard","completed",180
+"male","group A","some college","standard","none",139
+"female","group A","some college","free/reduced","none",169
+"female","group D","high school","standard","completed",287
+"female","group C","high school","standard","none",175
+"female","group C","some high school","standard","none",204
+"male","group B","associate's degree","standard","completed",193
+"female","group B","associate's degree","standard","none",239
+"female","group D","high school","free/reduced","completed",165
+"male","group D","associate's degree","standard","completed",256
+"female","group D","master's degree","standard","completed",215
+"male","group E","some college","standard","completed",245
+"male","group D","associate's degree","standard","none",197
+"male","group B","some high school","standard","completed",197
+"female","group C","bachelor's degree","free/reduced","completed",202
+"male","group E","high school","standard","none",226
+"male","group C","bachelor's degree","standard","completed",213
+"male","group C","associate's degree","standard","none",214
+"male","group D","some college","standard","none",189
+"male","group E","high school","free/reduced","completed",167
+"female","group C","associate's degree","free/reduced","completed",268
+"female","group D","high school","standard","completed",179
+"female","group D","master's degree","free/reduced","completed",172
+"female","group A","some high school","standard","completed",224
+"male","group B","some college","free/reduced","none",114
+"female","group C","some college","free/reduced","none",191
+"male","group C","bachelor's degree","standard","none",255
+"male","group C","some high school","free/reduced","none",205
+"male","group A","some high school","free/reduced","none",177
+"male","group C","some high school","free/reduced","none",185
+"male","group C","associate's degree","free/reduced","none",189
+"female","group C","high school","standard","none",203
+"male","group C","high school","standard","none",172
+"female","group A","some high school","free/reduced","none",156
+"male","group C","some high school","standard","none",205
+"male","group C","some college","free/reduced","completed",151
+"male","group D","associate's degree","standard","none",207
+"male","group D","associate's degree","free/reduced","none",214
+"male","group C","high school","standard","none",177
+"male","group D","some high school","standard","completed",259
+"female","group C","some college","standard","completed",227
+"female","group D","high school","standard","none",239
+"female","group A","some high school","free/reduced","none",201
+"female","group B","associate's degree","standard","none",232
+"male","group A","some high school","free/reduced","none",234
+"female","group C","some high school","standard","completed",218
+"male","group D","some college","free/reduced","none",195
+"male","group C","high school","standard","completed",247
+"male","group B","high school","standard","none",135
+"male","group B","associate's degree","standard","none",226
+"female","group C","some college","free/reduced","completed",234
+"female","group E","some college","standard","none",289
+"female","group C","associate's degree","free/reduced","none",216
+"male","group C","some college","free/reduced","none",172
+"female","group C","associate's degree","free/reduced","none",176
+"male","group C","bachelor's degree","free/reduced","none",140
+"female","group D","bachelor's degree","standard","none",257
+"male","group D","associate's degree","free/reduced","none",155
+"female","group E","bachelor's degree","standard","none",300
+"male","group B","high school","standard","completed",205
+"male","group C","bachelor's degree","free/reduced","none",166
+"male","group B","some college","free/reduced","none",153
+"female","group E","some college","standard","none",217
+"female","group C","some college","free/reduced","none",258
+"male","group A","bachelor's degree","standard","completed",195
+"female","group C","some college","standard","none",262
+"female","group D","associate's degree","free/reduced","none",95
+"male","group A","high school","free/reduced","completed",204
+"female","group A","high school","free/reduced","completed",250
+"male","group C","some college","standard","none",241
+"female","group C","associate's degree","standard","completed",258
+"female","group C","high school","standard","none",206
+"female","group C","associate's degree","standard","completed",238
+"female","group D","some high school","standard","none",187
+"female","group B","associate's degree","standard","completed",271
+"female","group D","bachelor's degree","standard","completed",230
+"male","group E","bachelor's degree","standard","completed",204
+"male","group D","associate's degree","standard","none",220
+"female","group D","master's degree","standard","none",189
+"male","group E","associate's degree","standard","none",214
+"male","group B","high school","standard","completed",212
+"female","group D","associate's degree","free/reduced","none",167
+"male","group C","some college","free/reduced","none",197
+"male","group A","high school","standard","none",157
+"female","group B","associate's degree","standard","none",155
+"male","group C","high school","standard","none",215
+"male","group D","some college","free/reduced","none",164
+"female","group C","associate's degree","free/reduced","none",209
+"male","group B","some high school","standard","completed",174
+"male","group A","associate's degree","free/reduced","completed",243
+"female","group A","associate's degree","free/reduced","none",226
+"female","group C","associate's degree","standard","none",198
+"female","group C","some college","standard","none",256
+"female","group C","bachelor's degree","standard","none",259
+"female","group B","high school","standard","none",186
+"male","group D","high school","standard","completed",198
+"female","group C","some college","standard","none",154
+"female","group D","some college","free/reduced","completed",213
+"female","group B","some high school","standard","none",203
+"male","group E","some college","standard","none",219
+"female","group D","master's degree","standard","none",235
+"female","group B","associate's degree","standard","completed",273
+"male","group C","some college","free/reduced","none",178
+"female","group E","associate's degree","standard","completed",276
+"female","group D","master's degree","free/reduced","none",153
+"female","group B","some high school","standard","none",244
+"male","group A","high school","standard","none",204
+"male","group B","bachelor's degree","free/reduced","none",168
+"male","group C","master's degree","standard","none",234
+"female","group C","bachelor's degree","standard","none",265
+"male","group D","some college","standard","none",220
+"male","group A","some high school","standard","none",157
+"male","group D","some high school","free/reduced","none",163
+"female","group B","some high school","standard","completed",177
+"female","group B","master's degree","free/reduced","completed",268
+"female","group C","some high school","standard","completed",248
+"female","group D","some college","standard","none",247
+"female","group E","some college","standard","completed",213
+"female","group D","some high school","standard","completed",222
+"female","group B","high school","free/reduced","completed",224
+"male","group D","some college","standard","none",172
+"female","group C","associate's degree","standard","none",261
+"male","group D","bachelor's degree","standard","none",184
+"male","group C","master's degree","free/reduced","none",163
+"male","group C","high school","standard","completed",154
+"male","group E","some college","standard","none",187
+"male","group C","some high school","free/reduced","completed",177
+"female","group C","high school","free/reduced","none",132
+"female","group D","bachelor's degree","free/reduced","none",117
+"female","group C","associate's degree","standard","none",206
+"female","group C","associate's degree","standard","completed",208
+"female","group C","some high school","standard","none",154
+"male","group E","associate's degree","standard","completed",181
+"female","group E","associate's degree","standard","completed",261
+"male","group B","high school","standard","completed",210
+"female","group C","bachelor's degree","free/reduced","completed",232
+"male","group C","associate's degree","standard","completed",169
+"female","group D","high school","standard","none",179
+"male","group E","bachelor's degree","standard","completed",222
+"male","group A","associate's degree","standard","completed",275
+"male","group C","high school","standard","completed",212
+"male","group D","associate's degree","free/reduced","completed",241
+"female","group C","associate's degree","standard","none",237
+"female","group D","associate's degree","standard","none",266
+"female","group D","master's degree","standard","none",193
+"male","group E","some high school","free/reduced","completed",241
+"female","group A","some high school","standard","completed",289
+"male","group C","high school","standard","completed",203
+"female","group C","high school","free/reduced","none",193
+"male","group C","master's degree","standard","none",220
+"male","group C","some high school","free/reduced","none",220
+"male","group B","bachelor's degree","free/reduced","completed",265
+"female","group B","associate's degree","standard","none",138
+"male","group D","some college","free/reduced","none",203
+"male","group E","associate's degree","standard","none",138
+"female","group C","some college","free/reduced","none",104
+"female","group C","associate's degree","standard","completed",206
+"male","group C","master's degree","free/reduced","none",194
+"female","group B","associate's degree","free/reduced","none",193
+"male","group D","some high school","standard","none",201
+"female","group D","some college","standard","completed",228
+"female","group C","some college","standard","none",211
+"male","group C","bachelor's degree","standard","completed",278
+"female","group D","some college","free/reduced","completed",223
+"male","group B","bachelor's degree","free/reduced","none",145
+"male","group B","associate's degree","standard","none",136
+"female","group E","bachelor's degree","free/reduced","completed",292
+"female","group D","master's degree","free/reduced","completed",210
+"male","group B","high school","free/reduced","none",158
+"male","group D","bachelor's degree","free/reduced","none",203
+"male","group B","some college","standard","completed",216
+"male","group A","bachelor's degree","standard","none",279
+"female","group C","some college","standard","none",171
+"female","group C","high school","free/reduced","completed",180
+"female","group E","high school","standard","none",226
+"male","group A","associate's degree","free/reduced","completed",148
+"male","group A","some college","standard","completed",164
+"female","group B","high school","standard","none",261
+"female","group B","some college","free/reduced","completed",162
+"female","group D","master's degree","standard","none",182
+"female","group D","some high school","standard","none",274
+"female","group E","some high school","standard","none",236
+"female","group D","bachelor's degree","free/reduced","none",214
+"female","group D","associate's degree","standard","completed",228
+"female","group D","some college","standard","none",223
+"female","group C","associate's degree","standard","none",217
+"female","group A","high school","standard","none",201
+"female","group C","bachelor's degree","free/reduced","none",169
+"female","group C","some college","standard","none",183
+"female","group A","some high school","standard","none",179
+"male","group C","some college","free/reduced","none",169
+"male","group A","some high school","standard","none",183
+"male","group E","bachelor's degree","standard","none",200
+"female","group E","high school","standard","none",223
+"female","group C","bachelor's degree","standard","completed",291
+"female","group C","bachelor's degree","standard","completed",207
+"male","group B","high school","free/reduced","none",69
+"male","group A","some high school","standard","none",155
+"female","group D","high school","standard","none",219
+"female","group D","some high school","standard","none",228
+"female","group D","master's degree","standard","none",177
+"female","group C","high school","standard","none",88
+"female","group E","some college","standard","none",234
+"male","group D","high school","free/reduced","none",168
+"male","group D","master's degree","free/reduced","completed",263
+"male","group C","some high school","standard","none",209
+"female","group C","associate's degree","standard","none",251
+"female","group C","master's degree","free/reduced","none",152
+"female","group E","some college","standard","none",187
+"female","group B","associate's degree","standard","none",186
+"male","group D","some college","free/reduced","completed",192
+"female","group C","some college","standard","none",183
+"male","group C","bachelor's degree","standard","completed",275
+"female","group C","associate's degree","standard","none",216
+"female","group A","associate's degree","standard","none",268
+"female","group C","high school","standard","none",200
+"female","group E","bachelor's degree","standard","none",120
+"male","group D","bachelor's degree","standard","none",249
+"male","group D","master's degree","standard","none",260
+"male","group C","associate's degree","free/reduced","completed",206
+"female","group C","high school","free/reduced","none",150
+"male","group B","bachelor's degree","free/reduced","none",181
+"male","group C","high school","free/reduced","completed",161
+"male","group A","some college","standard","completed",282
+"female","group E","bachelor's degree","free/reduced","none",181
+"male","group D","some college","standard","completed",296
+"male","group B","associate's degree","free/reduced","completed",202
+"male","group D","associate's degree","standard","none",155
+"male","group D","some college","free/reduced","none",152
+"female","group C","some high school","standard","completed",150
+"male","group D","some college","standard","none",201
+"male","group B","high school","standard","none",204
+"female","group B","bachelor's degree","standard","completed",221
+"female","group C","high school","standard","none",248
+"male","group D","some high school","standard","none",248
+"male","group A","high school","standard","none",209
+"female","group B","high school","free/reduced","completed",228
+"female","group D","some high school","standard","completed",260
+"male","group E","some college","standard","none",236
+"female","group D","associate's degree","standard","none",223
+"male","group D","high school","standard","none",144
+"female","group D","associate's degree","free/reduced","completed",252
+"female","group B","some high school","free/reduced","none",232
+"female","group E","high school","standard","completed",233
+"male","group B","high school","standard","none",195
+"female","group B","bachelor's degree","standard","completed",227
+"female","group D","associate's degree","standard","none",194
+"female","group E","high school","free/reduced","none",194
+"female","group B","high school","standard","none",158
+"female","group D","some college","standard","completed",229
+"male","group C","some high school","free/reduced","completed",160
+"female","group A","high school","standard","completed",224
+"female","group D","some college","standard","completed",269
+"female","group A","associate's degree","standard","completed",209
+"female","group B","some high school","standard","none",231
+"female","group B","some college","standard","none",196
+"male","group C","associate's degree","free/reduced","none",208
+"male","group D","some high school","standard","none",196
+"female","group D","associate's degree","free/reduced","none",161
+"male","group D","associate's degree","standard","none",262
+"male","group C","some college","free/reduced","none",224
+"male","group C","some high school","standard","none",202
+"female","group D","some college","free/reduced","none",195
+"female","group C","high school","standard","none",201
+"male","group D","associate's degree","standard","none",206
+"female","group C","some high school","free/reduced","completed",170
+"female","group C","some college","free/reduced","completed",207
+"female","group B","bachelor's degree","free/reduced","none",249
+"male","group C","some college","standard","none",208
+"male","group D","associate's degree","standard","completed",230
+"female","group C","high school","free/reduced","none",210
+"male","group D","associate's degree","free/reduced","none",159
+"female","group C","some college","standard","none",223
+"female","group C","associate's degree","standard","completed",233
+"female","group D","high school","standard","completed",224
+"female","group B","some college","standard","completed",180
+"female","group E","some college","standard","completed",227
+"female","group C","some high school","standard","completed",228
+"male","group D","associate's degree","free/reduced","none",234
+"male","group D","some college","free/reduced","none",184
+"female","group D","high school","standard","none",213
+"male","group B","high school","standard","none",188
+"male","group B","high school","standard","none",171
+"female","group C","some high school","free/reduced","completed",113
+"male","group B","some college","standard","completed",196
+"female","group E","master's degree","standard","completed",293
+"male","group E","some college","standard","completed",228
+"male","group D","associate's degree","free/reduced","none",228
+"male","group A","high school","free/reduced","none",155
+"male","group E","some college","free/reduced","none",266
+"female","group C","associate's degree","standard","none",155
+"female","group E","associate's degree","free/reduced","none",227
+"female","group C","bachelor's degree","free/reduced","completed",221
+"female","group D","associate's degree","standard","none",227
+"female","group C","some high school","standard","none",168
+"female","group D","some college","free/reduced","none",254
+"female","group C","associate's degree","standard","completed",247
+"female","group A","bachelor's degree","standard","none",201
+"female","group D","associate's degree","standard","completed",214
+"male","group C","high school","free/reduced","none",191
+"female","group E","bachelor's degree","standard","completed",242
+"female","group B","some high school","standard","none",196
+"male","group A","bachelor's degree","standard","completed",258
+"female","group D","some college","standard","none",194
+"female","group B","some high school","free/reduced","completed",186
+"male","group A","bachelor's degree","free/reduced","none",199
+"male","group D","high school","standard","none",116
+"male","group C","some college","standard","none",177
+"male","group D","high school","standard","none",255
+"female","group D","associate's degree","free/reduced","completed",161
+"male","group C","some college","standard","completed",267
+"female","group E","some high school","standard","completed",250
+"female","group D","some college","standard","none",297
+"male","group D","master's degree","standard","none",246
+"female","group B","some high school","standard","completed",204
+"female","group B","associate's degree","free/reduced","completed",257
+"male","group C","associate's degree","standard","completed",223
+"female","group C","associate's degree","standard","completed",291
+"female","group C","high school","standard","none",226
+"male","group E","associate's degree","free/reduced","completed",244
+"female","group C","some college","free/reduced","none",204
+"male","group D","some high school","free/reduced","completed",173
+"female","group B","some high school","free/reduced","completed",252
+"male","group C","high school","standard","none",140
+"male","group B","some college","standard","none",131
+"male","group E","some college","standard","completed",226
+"female","group E","associate's degree","standard","completed",217
+"male","group E","some high school","standard","completed",176
+"female","group D","high school","free/reduced","none",249
+"male","group C","some college","standard","none",129
+"female","group B","associate's degree","free/reduced","completed",225
+"male","group A","some high school","free/reduced","none",144
+"female","group C","some college","standard","completed",270
+"male","group D","some high school","standard","none",146
+"female","group E","some college","free/reduced","none",168
+"male","group C","master's degree","standard","none",183
+"male","group C","associate's degree","standard","none",255
+"female","group B","some college","free/reduced","completed",192
+"male","group D","associate's degree","standard","none",225
+"male","group C","high school","free/reduced","none",176
+"male","group D","bachelor's degree","standard","none",225
+"female","group A","associate's degree","free/reduced","none",150
+"female","group C","high school","standard","none",247
+"female","group C","associate's degree","standard","completed",204
+"male","group B","some college","free/reduced","none",157
+"male","group D","associate's degree","standard","none",225
+"male","group D","high school","standard","none",215
+"male","group C","some college","standard","none",201
+"female","group C","bachelor's degree","free/reduced","none",169
+"male","group B","some college","standard","completed",257
+"male","group D","some high school","standard","completed",208
+"male","group E","some college","standard","none",205
+"male","group C","master's degree","free/reduced","completed",231
+"female","group C","some high school","standard","completed",252
+"male","group C","associate's degree","free/reduced","none",166
+"female","group E","associate's degree","standard","none",271
+"male","group D","some college","standard","none",165
+"male","group E","bachelor's degree","free/reduced","completed",210
+"female","group D","some college","free/reduced","completed",176
+"male","group B","some college","standard","completed",223
+"female","group C","high school","free/reduced","none",189
+"female","group D","some high school","standard","none",160
+"male","group D","some high school","standard","completed",245
+"female","group B","high school","standard","none",187
+"male","group D","some college","standard","none",182
+"female","group B","high school","standard","none",218
+"female","group C","high school","standard","completed",210
+"male","group B","high school","standard","completed",198
+"female","group D","some high school","standard","none",214
+"male","group A","some college","free/reduced","none",175
+"male","group B","high school","standard","none",149
+"male","group D","bachelor's degree","standard","none",222
+"female","group B","some high school","free/reduced","completed",191
+"female","group C","bachelor's degree","free/reduced","none",219
+"male","group B","some college","standard","none",191
+"female","group B","some high school","free/reduced","none",162
+"female","group B","high school","standard","none",208
+"female","group C","some college","free/reduced","none",122
+"female","group A","some college","standard","completed",233
+"male","group E","associate's degree","standard","completed",261
+"female","group D","associate's degree","free/reduced","none",159
+"female","group B","master's degree","standard","none",251
+"female","group B","high school","free/reduced","completed",243
+"female","group C","associate's degree","standard","completed",173
+"male","group C","bachelor's degree","standard","completed",251
+"female","group B","some high school","standard","completed",127
+"female","group E","some high school","free/reduced","none",228
+"female","group B","some college","standard","none",89
+"male","group C","associate's degree","free/reduced","none",194
+"female","group C","master's degree","free/reduced","none",178
+"female","group B","high school","standard","none",170
+"female","group D","some college","free/reduced","none",196
+"male","group D","high school","free/reduced","none",209
+"male","group E","some high school","standard","completed",250
+"female","group B","high school","standard","none",145
+"female","group E","associate's degree","free/reduced","completed",198
+"male","group D","high school","standard","none",210
+"female","group E","associate's degree","free/reduced","none",235
+"male","group E","some college","standard","none",183
+"female","group C","associate's degree","standard","none",164
+"male","group C","some high school","standard","completed",208
+"male","group C","some high school","standard","completed",229
+"female","group E","associate's degree","standard","none",276
+"female","group B","some college","standard","none",254
+"female","group C","some college","standard","none",227
+"male","group A","some college","free/reduced","none",230
+"female","group D","some college","free/reduced","none",213
+"female","group E","high school","free/reduced","none",126
+"male","group C","high school","standard","none",234
+"male","group B","bachelor's degree","standard","none",164
+"male","group A","some high school","standard","none",118
+"male","group A","high school","free/reduced","none",141
+"female","group C","master's degree","standard","completed",185
+"male","group E","some high school","standard","completed",247
+"female","group C","high school","standard","none",235
+"male","group B","some high school","standard","completed",267
+"female","group A","bachelor's degree","standard","none",168
+"male","group D","bachelor's degree","free/reduced","completed",207
+"female","group B","high school","free/reduced","none",200
+"female","group C","some high school","standard","none",256
+"female","group A","some high school","standard","completed",267
+"female","group D","bachelor's degree","free/reduced","none",261
+"male","group E","some college","free/reduced","completed",152
+"female","group B","high school","free/reduced","none",240
+"female","group C","some high school","free/reduced","none",158
+"male","group C","high school","standard","none",187
+"female","group C","associate's degree","free/reduced","completed",194
+"female","group C","some high school","standard","none",210
+"female","group D","some high school","free/reduced","completed",236
+"male","group B","some high school","standard","none",175
+"female","group A","some college","free/reduced","none",178
+"female","group C","bachelor's degree","free/reduced","completed",249
+"male","group A","bachelor's degree","standard","none",182
+"female","group B","high school","standard","completed",248
+"male","group B","some college","standard","none",153
+"female","group C","high school","standard","completed",198
+"male","group E","high school","standard","none",194
+"female","group A","high school","standard","completed",236
+"male","group B","associate's degree","free/reduced","completed",168
+"female","group C","associate's degree","standard","none",216
+"female","group D","high school","free/reduced","none",137
+"male","group C","some high school","standard","none",173
+"female","group B","high school","free/reduced","completed",103
+"male","group B","some college","free/reduced","completed",227
+"female","group D","some high school","free/reduced","completed",169
+"male","group E","master's degree","standard","none",259
+"male","group C","master's degree","standard","completed",261
+"male","group D","high school","standard","none",168
+"female","group C","high school","standard","none",199
+"male","group D","associate's degree","standard","none",224
+"male","group C","master's degree","standard","none",205
+"female","group A","high school","standard","none",192
+"female","group E","some college","standard","none",265
+"male","group E","some high school","standard","none",210
+"male","group C","some high school","standard","none",181
+"female","group B","bachelor's degree","standard","none",290
+"male","group B","some college","free/reduced","none",208
+"female","group C","bachelor's degree","standard","none",225
+"male","group B","high school","standard","completed",147
+"male","group C","associate's degree","free/reduced","none",232
+"female","group C","associate's degree","standard","none",168
+"female","group E","master's degree","free/reduced","none",254
+"male","group D","bachelor's degree","free/reduced","completed",119
+"female","group C","some college","standard","completed",222
+"male","group C","associate's degree","standard","none",281
+"male","group D","some college","standard","completed",252
+"male","group C","high school","free/reduced","none",164
+"male","group B","associate's degree","standard","none",144
+"male","group E","associate's degree","free/reduced","completed",224
+"male","group C","associate's degree","free/reduced","none",151
+"male","group B","high school","standard","none",164
+"female","group C","some college","standard","completed",218
+"male","group B","associate's degree","standard","completed",244
+"male","group E","associate's degree","free/reduced","none",262
+"female","group C","bachelor's degree","free/reduced","none",166
+"male","group C","some college","free/reduced","none",210
+"male","group D","some college","standard","none",247
+"male","group C","some high school","standard","none",172
+"female","group D","some high school","standard","none",211
+"female","group D","associate's degree","standard","none",214
+"male","group C","bachelor's degree","standard","completed",193
+"female","group E","bachelor's degree","standard","completed",211
+"female","group B","high school","free/reduced","none",208
+"male","group D","bachelor's degree","free/reduced","none",145
+"female","group E","associate's degree","standard","none",156
+"female","group C","associate's degree","standard","completed",218
+"female","group E","associate's degree","standard","completed",288
+"male","group C","high school","free/reduced","none",185
+"female","group D","some college","free/reduced","none",208
+"male","group D","high school","free/reduced","none",143
+"female","group E","some college","standard","completed",262
+"female","group E","associate's degree","standard","none",262
+"female","group A","master's degree","free/reduced","none",190
+"male","group D","some high school","standard","completed",237
+"female","group E","associate's degree","standard","none",190
+"female","group E","some high school","free/reduced","none",104
+"male","group B","high school","free/reduced","none",92
+"female","group B","some high school","free/reduced","completed",220
+"male","group D","associate's degree","standard","completed",184
+"female","group D","some high school","standard","completed",225
+"male","group D","master's degree","standard","none",258
+"female","group C","master's degree","standard","none",225
+"female","group A","high school","free/reduced","completed",123
+"female","group D","bachelor's degree","free/reduced","completed",293
+"female","group D","some high school","free/reduced","none",235
+"male","group D","some college","standard","none",242
+"male","group B","high school","standard","none",156
+"female","group D","some college","standard","completed",254
+"female","group C","bachelor's degree","free/reduced","none",214
+"male","group E","bachelor's degree","standard","completed",204
+"male","group D","bachelor's degree","free/reduced","none",140
+"female","group A","some college","standard","none",235
+"female","group C","bachelor's degree","standard","completed",179
+"female","group C","bachelor's degree","free/reduced","completed",175
+"female","group B","associate's degree","free/reduced","none",162
+"female","group E","some college","standard","none",204
+"male","group E","bachelor's degree","standard","completed",300
+"female","group C","high school","standard","none",157
+"female","group C","associate's degree","standard","completed",214
+"male","group B","some college","standard","completed",278
+"male","group D","high school","free/reduced","none",206
+"female","group C","high school","free/reduced","none",134
+"male","group D","high school","standard","none",204
+"female","group B","associate's degree","free/reduced","none",184
+"male","group D","high school","free/reduced","none",213
+"male","group E","some high school","standard","completed",198
+"male","group E","associate's degree","free/reduced","none",172
+"female","group D","high school","free/reduced","completed",197
+"male","group E","associate's degree","free/reduced","completed",133
+"female","group C","some high school","free/reduced","none",155
+"male","group C","some college","free/reduced","completed",211
+"male","group D","some college","free/reduced","none",181
+"male","group D","associate's degree","free/reduced","completed",205
+"male","group C","bachelor's degree","free/reduced","completed",219
+"male","group C","associate's degree","standard","completed",275
+"male","group D","some college","free/reduced","none",191
+"male","group A","associate's degree","standard","none",177
+"female","group E","high school","free/reduced","none",172
+"male","group D","some college","standard","completed",251
+"male","group D","some high school","standard","completed",214
+"male","group C","master's degree","free/reduced","completed",210
+"female","group D","master's degree","standard","none",265
+"male","group C","high school","standard","none",211
+"male","group A","some high school","free/reduced","completed",184
+"female","group B","high school","standard","none",187
+"female","group C","associate's degree","standard","none",173
+"male","group B","high school","standard","none",244
+"female","group D","some college","free/reduced","none",167
+"male","group B","some high school","free/reduced","completed",151
+"female","group E","high school","free/reduced","completed",205
+"male","group E","high school","standard","none",238
+"female","group D","some college","standard","completed",235
+"female","group E","some high school","free/reduced","none",220
+"male","group C","high school","standard","completed",164
+"female","group C","some college","standard","none",200
+"male","group E","associate's degree","standard","none",191
+"male","group C","some college","standard","none",252
+"female","group D","master's degree","standard","none",292
+"female","group D","high school","standard","none",167
+"male","group C","high school","standard","none",227
+"female","group A","some college","standard","none",178
+"female","group D","some high school","free/reduced","none",155
+"female","group E","associate's degree","standard","none",300
+"female","group C","some high school","free/reduced","completed",216
+"male","group D","some college","standard","none",187
+"female","group D","some college","standard","none",204
+"male","group A","some high school","standard","completed",198
+"male","group C","some college","standard","none",186
+"female","group E","associate's degree","standard","none",211
+"female","group B","bachelor's degree","standard","none",239
+"female","group D","bachelor's degree","standard","none",289
+"male","group C","some high school","standard","completed",219
+"female","group A","high school","free/reduced","completed",163
+"female","group D","some college","free/reduced","none",175
+"female","group A","some college","standard","none",184
+"female","group C","some college","standard","completed",223
+"male","group B","some college","free/reduced","completed",182
+"male","group C","associate's degree","standard","none",185
+"male","group D","high school","standard","completed",144
+"female","group C","associate's degree","standard","none",280
+"female","group B","high school","free/reduced","none",55
+"male","group D","some high school","standard","none",237
+"male","group B","some high school","standard","completed",250
+"female","group A","some college","standard","completed",256
+"female","group C","some high school","standard","none",231
+"male","group A","high school","standard","none",162
+"female","group C","associate's degree","standard","none",150
+"male","group E","some high school","standard","completed",232
+"female","group A","some high school","free/reduced","none",134
+"female","group D","some college","free/reduced","completed",236
+"male","group E","high school","free/reduced","completed",242
+"female","group B","some high school","standard","completed",225
+"female","group D","associate's degree","free/reduced","none",207
+"female","group D","bachelor's degree","free/reduced","none",208
+"male","group A","high school","standard","none",188
+"female","group E","master's degree","standard","completed",282
+"male","group C","high school","free/reduced","none",172
+"female","group C","high school","free/reduced","completed",195
+"female","group D","some college","standard","completed",223
+"female","group D","some college","free/reduced","none",249
