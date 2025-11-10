@@ -5,7 +5,6 @@ output:
   html_document: default
   pdf_document: default
 ---
-
 ```{r}
 StudentsPerformance <- read.csv("C:/Users/ASUS/Downloads/StudentsPerformance.csv")
 ```
@@ -55,9 +54,6 @@ div(ggplotly(graph2))
 ```{r echo = FALSE}
 div(ggplotly(graph3))
 ```
-
-
-
 **2.Nhận xét:**\
 Biểu đồ Boxplot cho điểm toán (*math.score*):
 
@@ -84,4 +80,3 @@ Kết luận:
 
 - Cả ba biểu đồ đều thể hiện xu hướng tương đồng: học sinh đã hoàn thành khóa *test.preparation.course* có điểm cao hơn và ổn định hơn.
 - Việc tham gia khóa ôn luyện có ảnh hưởng tích cực rõ rệt, giúp cải thiện đáng kể kết quả học tập ở cả ba kỹ năng *math*, *reading* và *writing*.
-
