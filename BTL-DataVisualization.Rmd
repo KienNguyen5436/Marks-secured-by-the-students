@@ -1,0 +1,82 @@
+---
+title: "BTL-DataVisualization"
+date: "2025-11-06"
+output:
+  html_document: default
+  pdf_document: default
+---
+```{r}
+StudentsPerformance <- read.csv("C:/Users/ASUS/Downloads/StudentsPerformance.csv")
+```
+**1. Trực quan hóa bằng đồ thị Boxplot.**\
+Để kiểm tra ảnh hưởng của biến phân loại *test.preparation.course* lên các biến phụ thuộc *math.score*, *reading.score*, *writing.score*, ta sẽ sử dụng biểu đồ Boxplot. Biểu đồ này sẽ giúp ta so sánh sự phân bố điểm của từng bài thi giữa các nhóm có và không có sự chuẩn bị.\
+*Ta sử dụng thư viện ggplot2 và plotly để vẽ biểu đồ Boxplot*.\
+```{r library, echo=TRUE,message=FALSE, warning=FALSE}
+library(ggplot2)
+library(plotly)
+library(shiny)
+```
+*Khởi tạo lần lượt 3  biểu đồ*\
+```{r graph}
+graph1 <- ggplot(
+StudentsPerformance, aes(x=test.preparation.course, y=math.score, fill=test.preparation.course))+
+geom_boxplot()+ 
+labs(title= "Ảnh hưởng của test.prepartion.course lên math.score",x="test.preparation.course",y="math.score")+
+scale_fill_brewer(palette = "Set2")+ #đổi màu biểu đồ 
+theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
+      )
+
+graph2 <- ggplot(
+StudentsPerformance, aes(x=test.preparation.course, y=reading.score, fill=test.preparation.course))+
+geom_boxplot()+
+labs(title="Ảnh hưởng của test.prepartion.course lên reading.score",x="test.preparation.course",y="reading.score")+
+scale_fill_brewer(palette="Pastel1")+ 
+theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
+      )
+
+graph3 <- ggplot(
+StudentsPerformance, aes(x=test.preparation.course, y=writing.score, fill=test.preparation.course)) +
+geom_boxplot()+
+labs(title= "Ảnh hưởng của test.prepartion.course lên writing.score", x="test.preparation.course",y="writing.score") + 
+theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
+      )
+
+```
+
+```{r echo = FALSE}
+div(ggplotly(graph1))
+```
+
+```{r echo = FALSE}
+div(ggplotly(graph2))
+```
+
+```{r echo = FALSE}
+div(ggplotly(graph3))
+```
+**2.Nhận xét:**\
+Biểu đồ Boxplot cho điểm toán (*math.score*):
+
+- Trung vị: Nhóm *completed* có trung vị là 69, cao hơn nhóm none là 64
+- Phạm vi & IQR: Nhóm *completed* có IQR là 19, phân bố tập trung hơn; nhóm *none* có IQR là 21, ít ổn định hơn 
+- Cả hai nhóm đều tồn tại ngoại lai nhưng nhóm *none* có nhiều học sinh điểm thấp bất thường
+- Học sinh hoàn thành khóa test preparation (*completed*) có điểm toán cao hơn, ổn định hơn, ít học sinh điểm quá thấp; nhóm none phân bố rộng, nhiều điểm thấp.
+
+Biểu đồ Boxplot cho điểm đọc (*reading.score*):
+
+- Trung vị: Nhóm *completed* có trung vị 75, nhóm *none* là 67, ta thấy được sự chênh lệch rõ ràng, nhóm completed cao hơn.
+- Phạm vi & IQR: Cả hai nhóm đều có IQR là 19
+- Nhóm *completed* không có ngoại lai; nhóm *none* có 5 ngoại lai (28, 26, 24, 23, 17), nhiều học sinh điểm thấp bất thường.
+- Học sinh hoàn thành khóa test preparation có điểm đọc cao hơn và đồng đều hơn
+
+Biểu đồ Boxplot cho điểm viết (*writing.score*):
+
+- Trung vị: Nhóm *completed* có trung vị là 76, cao hơn nhóm *none* là 65
+- Phạm vi & IQR: Nhóm *completed* có IQR là 17, phân bố tập trung, ổn định; nhóm *none* có IQR là 20, phân bố rộng hơn, ít đồng đều.
+- Cả hai nhóm đều tồn tại ngoại lai nhưng nhóm *none* có nhiều học sinh điểm thấp bất thường
+- Học sinh hoàn thành khóa test preparation (*completed*) có điểm viết cao hơn, ổn định hơn, ít học sinh điểm quá thấp; nhóm *none* phân bố rộng, nhiều điểm thấp.
+
+Kết luận:
+
+- Cả ba biểu đồ đều thể hiện xu hướng tương đồng: học sinh đã hoàn thành khóa *test.preparation.course* có điểm cao hơn và ổn định hơn.
+- Việc tham gia khóa ôn luyện có ảnh hưởng tích cực rõ rệt, giúp cải thiện đáng kể kết quả học tập ở cả ba kỹ năng *math*, *reading* và *writing*.
