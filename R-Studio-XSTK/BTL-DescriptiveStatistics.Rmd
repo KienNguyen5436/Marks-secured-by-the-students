@@ -1,0 +1,56 @@
+---
+title: "BTL_DescriptiveStatistics"
+output: html_document
+date: "2025-11-05"
+---
+```{r}
+data<-read.csv("StudentsPerformance.csv")
+```
+**I. Tính toán các giá trị thống kê mô tả của các biến liên tục**  
+- *Lọc các giá trị biến liên tục trong bảng*
+```{r}
+numeric_vars <- sapply(data, is.numeric)
+numeric_data <- data[,numeric_vars]
+head(numeric_data,3)
+```
+Dựa trên kết quả cho thấy bảng có 3 cột dữ liệu là biến liên tục.  
+
+- *Thực hiện tính toán các thống kê mô tả bao gồm cỡ mẫu, trung bình mẫu, độ lệch chuẩn, các phân vị, giá trị nhỏ nhất, giá trị lớn nhất cho các biến liên tục*.
+```{r}
+summary_stats <- sapply(numeric_data, function(x){
+  c(
+    Mean = mean(x),
+    SD = sd(x),
+    Min = min(x),
+    Max = max(x),
+    Q1 = quantile(x,0.25),
+    Q2 = quantile(x, 0.5),
+    Q3 = quantile(x, 0.75)
+  )
+})
+t(as.data.frame(summary_stats))
+```
+
+**II.Lập bảng thống kê số lượng đối với từng biến phân loại.**  
+
+*Bảng thống kê của biến gender*
+```{r}
+table(data$gender)
+```
+*Bảng thống kê của biến race ethnicity*
+```{r}
+table(data$race.ethnicity)
+```
+*Bảng thống kê của biến parential level of education*
+```{r}
+table(data$parental.level.of.education)
+```
+*Bảng thống kê của biến lunch*
+```{r}
+table(data$lunch)
+```
+*Bảng thống kê của biến test preparation*
+```{r}
+table(data$test.preparation.course)
+```
+

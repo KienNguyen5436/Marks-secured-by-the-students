@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+**I. Tiền xử lý số liệu - Đọc dữ liệu và xem 10 dòng đầu tiên của dữ liệu.**
+
+```{r}
+data<-read.csv("StudentsPerformance.csv")
+head(data,10)
+```
+
+**Kiểm tra cấu trúc của tệp tin**
+
+```{r}
+str(data)
+```
+
+Dựa trên kết quả cho thấy, tệp tin bao gồm 1000 quan sát với 8 biến, Trong đó, các biến math.score, reading_score, writing.score là các biến liên tục. Còn lại là các biến phân loại
+
+------------------------------------------------------------------------
+
+II. **Làm sạch dữ liệu**
+
+-   **Kiểm tra dữ liệu khuyết trong tập tin**
+
+```{r}
+colSums(is.na(data))
+```
+
+**Nhận xét**: Không có dữ liệu khuyết trong tập tin
+
+**Kiểm tra các giá trị của từng biến phân loại**
+
+*Kiểm tra các giá trị của Gender:*
+
+```{r}
+unique(data$gender)
+```
+
+*Kiểm tra các giá trị của race/ethnicity:*
+
+```{r}
+unique(data$race.ethnicity)
+```
+
+*Kiểm tra các giá tị của parental level of education:*
+
+```{r}
+unique(data$parental.level.of.education)
+```
+
+*Kiểm tra các giá trị của lunch:*
+
+```{r}
+unique(data$lunch)
+```
+
+*Kiểm tra giá trị của test_preparation_course*
+
+```{r}
+unique(data$test.preparation.course)
+```
