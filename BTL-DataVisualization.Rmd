@@ -6,77 +6,125 @@ output:
   pdf_document: default
 ---
 ```{r}
-StudentsPerformance <- read.csv("C:/Users/ASUS/Downloads/StudentsPerformance.csv")
+StudentsPerformance <- read.csv("C:/Users/ASUS/Downloads/New_data.csv")
 ```
-**1. Trực quan hóa bằng đồ thị Boxplot.**\
-Để kiểm tra ảnh hưởng của biến phân loại *test.preparation.course* lên các biến phụ thuộc *math.score*, *reading.score*, *writing.score*, ta sẽ sử dụng biểu đồ Boxplot. Biểu đồ này sẽ giúp ta so sánh sự phân bố điểm của từng bài thi giữa các nhóm có và không có sự chuẩn bị.\
-*Ta sử dụng thư viện ggplot2 và plotly để vẽ biểu đồ Boxplot*.\
 ```{r library, echo=TRUE,message=FALSE, warning=FALSE}
 library(ggplot2)
 library(plotly)
 library(shiny)
 ```
-*Khởi tạo lần lượt 3  biểu đồ*\
+Trong phần này, dữ liệu được trực quan hóa thông qua các biểu đồ Histogram và Boxplot nhằm mô tả đặc điểm phân bố điểm số của học sinh, cũng như đánh giá sự khác biệt giữa các nhóm nhân khẩu học và điều kiện học tập. Việc trình bày dữ liệu bằng đồ thị giúp quan sát xu hướng tổng quát, phát hiện các giá trị ngoại lai và hiểu rõ mức độ biến thiên của từng biến trong bộ dữ liệu.\
+**1. Trực quan hóa bằng đồ thị Histogram.**\
+*Khởi tạo đồ thị histogram sử dụng thư viện ggplot2*
+```{r,  fig.align='center', message=FALSE, warning=FALSE}
+ggplot(StudentsPerformance, aes(x = total.score)) +
+  geom_histogram(fill = "steelblue", color = "black",alpha = 0.7) +  
+  labs(title = "Phân phối total.score",
+       x = "total.score",
+       y = "Số lượng") +
+  theme_minimal()+
+    theme(plot.title = element_text(hjust = 0.5))
+```
+Đồ thị Histogram trên mô tả phân bố *total.score* của 1000 học sinh trong tập dữ liệu. Quan sát đồ thị cho thấy:
+
+- Dữ liệu tập trung nhiều nhất ở vùng từ khoảng 180 đến 240 điểm .Đây là vùng có tần suất xuất hiện cao nhất, tạo thành phần đỉnh chuông rõ rệt.
+- Dải điểm từ 0 đến 100 hiếm gặp, chỉ có vài học sinh đạt mức này .Điều này tạo nên phần đuôi hơi lệch trái.
+- Một số học sinh đạt tổng điểm rất cao (trên 280 điểm), nhưng số lượng không nhiều.
+- Tổng điểm trải dài từ khoảng 20 đến 300, cho thấy sự khác biệt đáng kể về năng lực học sinh.\
+
+**2.Trực quan hóa bằng đồ thị Boxplot.**\
+*Khởi tạo lần lượt 5 đồ thị Boxplot sử dụng thư viện ggplot2*
 ```{r graph}
 graph1 <- ggplot(
-StudentsPerformance, aes(x=test.preparation.course, y=math.score, fill=test.preparation.course))+
+StudentsPerformance, aes(x=gender, y=total.score , fill=gender))+
 geom_boxplot()+ 
-labs(title= "Ảnh hưởng của test.prepartion.course lên math.score",x="test.preparation.course",y="math.score")+
+labs(title= "Ảnh hưởng của gender lên total.score",x="gender",y="total.score")+
 scale_fill_brewer(palette = "Set2")+ #đổi màu biểu đồ 
 theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
       )
-
 graph2 <- ggplot(
-StudentsPerformance, aes(x=test.preparation.course, y=reading.score, fill=test.preparation.course))+
+StudentsPerformance, aes(x=race.ethnicity, y=total.score, fill=race.ethnicity))+
 geom_boxplot()+
-labs(title="Ảnh hưởng của test.prepartion.course lên reading.score",x="test.preparation.course",y="reading.score")+
+labs(title="Ảnh hưởng của race.ethnicity lên total.score",x="race.ethnicity",y="total.score")+
 scale_fill_brewer(palette="Pastel1")+ 
 theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
       )
-
 graph3 <- ggplot(
-StudentsPerformance, aes(x=test.preparation.course, y=writing.score, fill=test.preparation.course)) +
+StudentsPerformance, aes(x=parental.level.of.education, y=total.score, fill=parental.level.of.education)) +
 geom_boxplot()+
-labs(title= "Ảnh hưởng của test.prepartion.course lên writing.score", x="test.preparation.course",y="writing.score") + 
+labs(title= "Ảnh hưởng của parental.level.of.education lên total.score",x="parental.level.of.education	",y="total.score") + scale_fill_brewer(palette = "PiYG")+
 theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
       )
-
+graph4 <- ggplot(
+StudentsPerformance, aes(x=lunch, y=total.score, fill=lunch)) +
+geom_boxplot()+
+labs(title= "Ảnh hưởng của lunch lên total.score",
+x="lunch",y="total.score") + scale_fill_brewer(palette = "Paired")+
+theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
+      )
+graph5 <- ggplot(
+StudentsPerformance, aes(x=test.preparation.course, y=total.score, fill=test.preparation.course)) +
+geom_boxplot()+
+labs(title= "Ảnh hưởng của test.preparation.course\n lên total.score",
+x="test.preparation.course",y="total.score") + scale_fill_brewer(palette = "Set3")+
+theme(legend.position="none", plot.title = element_text(hjust = 0.5, size = 13)
+      )
 ```
 
-```{r echo = FALSE}
-div(ggplotly(graph1))
+```{r echo=FALSE}
+div(
+  style = "display:flex; justify-content:center;",
+ div(style = "width:48%;", ggplotly(graph1))
+)
 ```
 
-```{r echo = FALSE}
+```{r echo=FALSE}
 div(ggplotly(graph2))
 ```
 
 ```{r echo = FALSE}
 div(ggplotly(graph3))
 ```
-**2.Nhận xét:**\
-Biểu đồ Boxplot cho điểm toán (*math.score*):
 
-- Trung vị: Nhóm *completed* có trung vị là 69, cao hơn nhóm none là 64
-- Phạm vi & IQR: Nhóm *completed* có IQR là 19, phân bố tập trung hơn; nhóm *none* có IQR là 21, ít ổn định hơn 
-- Cả hai nhóm đều tồn tại ngoại lai nhưng nhóm *none* có nhiều học sinh điểm thấp bất thường
-- Học sinh hoàn thành khóa test preparation (*completed*) có điểm toán cao hơn, ổn định hơn, ít học sinh điểm quá thấp; nhóm none phân bố rộng, nhiều điểm thấp.
 
-Biểu đồ Boxplot cho điểm đọc (*reading.score*):
+```{r echo=FALSE}
+div(
+  style = "display:flex; justify-content:space-between;",
+  div(style = "width:48%;", ggplotly(graph4)),
+  div(style = "width:48%;", ggplotly(graph5))
+)
+```
 
-- Trung vị: Nhóm *completed* có trung vị 75, nhóm *none* là 67, ta thấy được sự chênh lệch rõ ràng, nhóm completed cao hơn.
-- Phạm vi & IQR: Cả hai nhóm đều có IQR là 19
-- Nhóm *completed* không có ngoại lai; nhóm *none* có 5 ngoại lai (28, 26, 24, 23, 17), nhiều học sinh điểm thấp bất thường.
-- Học sinh hoàn thành khóa test preparation có điểm đọc cao hơn và đồng đều hơn
+**Nhận xét:**\
+Đồ thị Boxplot phân phối *total.score* theo *gender*:\
 
-Biểu đồ Boxplot cho điểm viết (*writing.score*):
+- Nhìn chung, nữ có kết quả tốt hơn nam: trung vị *total.score* của nữ= 211, cao hơn nam= 199; khoảng tứ phân vị của nữ cũng dịch lên phía điểm cao hơn (Q1= 182, Q3= 236 so với nam Q1= 168, Q3= 229).
+- Độ phân tán đều khá lớn ở cả hai giới, nhưng nhóm nữ xuất hiện điểm rất thấp min= 27, lower fence= 103), trong khi nam có điểm thấp nhất cao hơn với min= 69 và lower fence= 78).
+- Điểm tối đa đều là 300 cho cả nam và nữ, cho thấy cả hai nhóm đều có học sinh đạt mức điểm tổng cao nhất trong bộ dữ liệu.
 
-- Trung vị: Nhóm *completed* có trung vị là 76, cao hơn nhóm *none* là 65
-- Phạm vi & IQR: Nhóm *completed* có IQR là 17, phân bố tập trung, ổn định; nhóm *none* có IQR là 20, phân bố rộng hơn, ít đồng đều.
-- Cả hai nhóm đều tồn tại ngoại lai nhưng nhóm *none* có nhiều học sinh điểm thấp bất thường
-- Học sinh hoàn thành khóa test preparation (*completed*) có điểm viết cao hơn, ổn định hơn, ít học sinh điểm quá thấp; nhóm *none* phân bố rộng, nhiều điểm thấp.
+Đồ thị Boxplot phân phối *total.score* theo *race.ethnicity*:\
 
-Kết luận:
+- Điểm tổng tăng dần theo nhóm: *group A/B* có trung vị thấp hơn: 184 và 195, rồi đến *group  C/D*, cao nhất là *group E*: 220.
+- *Group E* tập trung nhiều học sinh điểm cao, Q3= 247, max gần 300, còn *group A* xuất hiện nhiều điểm thấp hơn, nhiều điểm bé hơn 150.
+- Các hộp vẫn chồng lấn khá nhiều, nên *race.ethnicity* có xu hướng ảnh hưởng đến *total.score* nhưng không tách biệt hoàn toàn giữa các nhóm.
 
-- Cả ba biểu đồ đều thể hiện xu hướng tương đồng: học sinh đã hoàn thành khóa *test.preparation.course* có điểm cao hơn và ổn định hơn.
-- Việc tham gia khóa ôn luyện có ảnh hưởng tích cực rõ rệt, giúp cải thiện đáng kể kết quả học tập ở cả ba kỹ năng *math*, *reading* và *writing*.
+Đồ thị Boxplot phân phối *total.score* theo *parental.level.of.education*:\
+
+- Tổng điểm của học sinh có cha mẹ học *master’s degree* và *bachelor’s degree* nhìn chung cao hơn các nhóm còn lại.
+- Nhóm *master’s degree* có trung vị *total.score* cao nhất: 220), trong khi nhóm *high school* thấp nhất: 195, các mức học vấn khác nằm ở giữa.
+- Độ phân tán giữa các nhóm khá tương tự, tức là sự khác biệt chủ yếu nằm ở mức điểm trung tâm, không phải ở độ biến thiên.
+
+Đồ thị Boxplot phân phối *total.score* theo *lunch*:\
+
+- Học sinh dùng *standard lunch* có trung vị *total.score* khoảng 214, cao hơn khá rõ so với nhóm *free/reduced* chỉ khoảng 188.
+- Phần lớn điểm của nhóm *standard* tập trung ở vùng điểm cao hơn (186,75–239), còn nhóm *free/reduced* trải rộng hơn về phía điểm thấp.
+- Điểm thấp nhất của nhóm *free/reduced*: 27, thấp hơn nhiều so với nhóm *standard*: 78.
+
+Đồ thị Boxplot phân phối *total.score* theo *test.preparation.course*:\
+
+- Trung vị *total.score* của nhóm *completed* khoảng 220,5, cao hơn rõ rệt so với nhóm *none* khoảng 196.
+- Khoảng tứ phân vị của *completed* (195–247) cũng nằm cao hơn so với *none* (166–225), cho thấy mặt bằng điểm tốt hơn.
+- Điểm thấp nhất của nhóm *completed* khoảng 103, trong khi nhóm *none* có nhiều học sinh điểm rất thấp (min chỉ khoảng 27).
+
+
+Tóm lại, các biến *gender*, *race.ethnicity*, *parental.level.of.education*, *lunch* và *test.preparation.course* đều có ảnh hưởng đáng kể đến *total.score*, và cần được xem xét kỹ khi phân tích và xây dựng mô hình dự đoán kết quả học tập.
