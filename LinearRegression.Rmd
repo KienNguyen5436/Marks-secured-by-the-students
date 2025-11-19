@@ -1,0 +1,100 @@
+
+**I. Tiền xử lý số liệu - Đọc dữ liệu và xem 10 dòng đầu tiên của dữ liệu.**
+
+```{r}
+data<-read.csv("StudentsPerformance.csv")
+head(data,10)
+```
+
+**Kiểm tra cấu trúc của tệp tin**
+
+```{r}
+str(data)
+```
+
+Dựa trên kết quả cho thấy, tệp tin bao gồm 1000 quan sát với 8 biến, Trong đó, các biến math.score, reading_score, writing.score là các biến liên tục. Còn lại là các biến phân loại
+
+------------------------------------------------------------------------
+
+II. **Làm sạch dữ liệu**
+
+-   **Kiểm tra dữ liệu khuyết trong tập tin**
+
+```{r}
+colSums(is.na(data))
+```
+
+**Nhận xét**: Không có dữ liệu khuyết trong tập tin
+
+**Kiểm tra các giá trị của từng biến phân loại**
+
+*Kiểm tra các giá trị của Gender:*
+
+```{r}
+unique(data$gender)
+```
+
+*Kiểm tra các giá trị của race/ethnicity:*
+
+```{r}
+unique(data$race.ethnicity)
+```
+
+*Kiểm tra các giá tị của parental level of education:*
+
+```{r}
+unique(data$parental.level.of.education)
+```
+
+*Kiểm tra các giá trị của lunch:*
+
+```{r}
+unique(data$lunch)
+```
+
+*Kiểm tra giá trị của test_preparation_course*
+
+```{r}
+unique(data$test.preparation.course)
+```
+
+Tạo biến mới **total.score = math.score + reading.score + writing.score**
+
+```{r}
+data$total.score = data$math.score + data$reading.score + data$writing.score
+head(data,10)
+```
+
+Tạo bảng dữ liệu mới,không bao gồm **math.score, reading.score, writing.score**
+
+```{r}
+new_data <- subset(data, select = -c(math.score, reading.score, writing.score))
+write.csv(new_data, "New_data.csv", row.names = FALSE)
+head(new_data, 10)
+```
+
+**Mô hình hồi quy 1**
+
+```{r}
+lm_model_1 <- lm(total.score~., new_data)
+summary(lm_model_1)
+```
+**Mô hình hồi quy 2**
+
+```{r}
+lm_model_2 <-lm(total.score~gender+lunch+test.preparation.course, new_data)
+summary(lm_model_2)
+```
+**So sánh 2 mô hình hồi quy**
+
+```{r}
+anova(lm_model_1, lm_model_2)
+```
+
+```{r}
+par( mfrow=c (2, 2))
+plot(lm_model_1)
+```
+
+
+
